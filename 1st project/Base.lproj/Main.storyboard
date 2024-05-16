@@ -205,7 +205,7 @@
                                 <rect key="frame" x="271" y="458" width="64" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="-">
+                                <buttonConfiguration key="configuration" style="plain" title="X">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </backgroundConfiguration>
@@ -252,14 +252,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cH6-Z4-P8E">
-                                <rect key="frame" x="85" y="273" width="192" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="MWr-XQ-BVb"/>
-                                    <constraint firstAttribute="width" secondItem="cH6-Z4-P8E" secondAttribute="height" multiplier="97:34" id="rTK-M7-G2l"/>
-                                    <constraint firstAttribute="height" constant="34" id="xCm-4E-8wm"/>
-                                </constraints>
-                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RNj-sD-HC5">
+                                <rect key="frame" x="85" y="269" width="192" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -278,9 +273,6 @@
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemYellowColor">
